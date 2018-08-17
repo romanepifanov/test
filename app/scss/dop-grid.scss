@@ -1,0 +1,158 @@
+/*
+1 = 5%
+2 = 10%
+3 = 15%
+4 = 20%
+5 = 25%
+6 = 30%
+7 = 35%
+8 = 40%
+9 = 45%
+10 = 50%
+11 = 55%
+12 = 60%
+13 = 65%
+14 = 70%
+15 = 75%
+16 = 80%
+17 = 85%
+18 = 90%
+19 = 95%
+20 = 100%
+*/
+
+.dop-col-1 {
+  width: 5%;
+  padding: 8px;
+}
+
+.dop-col-2 {
+  width: 10%;
+  padding: 8px;
+}
+
+.dop-col-3 {
+  width: 15%;
+  padding: 8px;
+}
+
+.dop-col-4 {
+  width: 20%;
+  padding: 8px;
+}
+
+.dop-col-5 {
+  width: 25%;
+  padding: 8px;
+}
+
+.dop-col-6 {
+  width: 30%;
+  padding: 8px;
+}
+
+.dop-col-7 {
+  width: 35%;
+  padding: 8px;
+}
+
+.dop-col-8 {
+  width: 40%;
+  padding: 8px;
+}
+
+.dop-col-9 {
+  width: 45%;
+  padding: 8px;
+}
+
+.dop-col-10 {
+  width: 50%;
+  padding: 8px;
+}
+
+.dop-col-11 {
+  width: 55%;
+  padding: 8px;
+}
+
+.dop-col-12 {
+  width: 60%;
+  padding: 8px;
+}
+
+.dop-col-13 {
+  width: 65%;
+  padding: 8px;
+}
+
+.dop-col-14 {
+  width: 70%;
+  padding: 8px;
+}
+
+.dop-col-15 {
+  width: 75%;
+  padding: 8px;
+}
+
+.dop-col-16 {
+  width: 80%;
+  padding: 8px;
+}
+
+.dop-col-17 {
+  width: 85%;
+  padding: 8px;
+}
+
+.dop-col-18 {
+  width: 90%;
+  padding: 8px;
+}
+
+.dop-col-19 {
+  width: 95%;
+  padding: 8px;
+}
+
+.dop-col-20 {
+  width: 100%;
+  padding: 8px;
+}
+.dop-conteiner{
+  border-radius: 12px;
+  // height: 100%;
+}
+
+.row-start {
+  margin: 0 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+}
+.row-space-between {
+  margin: 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+.row-space-around {
+  margin: 0 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+.row-center {
+  margin: 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.row-end {
+  margin: 0 10px 10px;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+}
+// отдельно вынести марджены и паддинги и подставлять их через классы

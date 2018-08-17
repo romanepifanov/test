@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #F5F5F5;
+    font-family: "PoalimSans";
+}
+.boldText{
+    font-size: 38px;
+    font-weight: 700;
+}
+.boldTextLanguage{
+    font-size: 38px;
+    font-weight: bold;
+    margin-right: 14px;
+}
+.boldTextNumber{
+    font-size: 34px;
+    font-weight: bold;
+}
+button, a, input {
+    cursor: pointer;
+}
+i, cite, em, var, address, dfn {
+    font-style: normal;
+}
